@@ -111,7 +111,6 @@ def test():
           "accuracy= {:.4f}".format(acc_test.item()))
     return loss_test.item(), acc_test.item()
 
-
 def save_curves():
     plt.figure()
     plt.plot(train_losses, label='train_loss')
