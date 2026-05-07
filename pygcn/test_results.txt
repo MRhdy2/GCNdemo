@@ -1,1 +1,1 @@
-loss=0.7269, accuracy=0.8250
+loss=0.7514, accuracy=0.8200

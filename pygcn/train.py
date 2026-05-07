@@ -66,6 +66,7 @@ if args.cuda:
     idx_val = idx_val.cuda()
     idx_test = idx_test.cuda()
 
+
 # History
 train_losses, train_accs = [], []
 val_losses, val_accs = [], []
