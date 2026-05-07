@@ -13,15 +13,11 @@ Note: There are subtle differences between the TensorFlow implementation in http
 
 This implementation makes use of the Cora dataset from [2].
 
-## Installation
-
-```python setup.py install```
-
 ## Requirements
 
-  * PyTorch 0.4 or 0.5
-  * Python 2.7 or 3.6
-
+  * PyTorch 2.8
+  * Python 3.9
+  * cuda 12.8
 ## Usage
 
 ```python train.py```
