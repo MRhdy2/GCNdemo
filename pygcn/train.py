@@ -70,7 +70,6 @@ if args.cuda:
 train_losses, train_accs = [], []
 val_losses, val_accs = [], []
 
-
 def train(epoch):
     t = time.time()
     model.train()
